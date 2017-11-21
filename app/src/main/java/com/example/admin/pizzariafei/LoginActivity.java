@@ -21,8 +21,8 @@ public class LoginActivity extends AppCompatActivity {
         EditText campo_usuario = (EditText) findViewById(R.id.campo_usuario);
         EditText campo_senha = (EditText) findViewById(R.id.campo_senha);
 
-        String usuario = campo_usuario.getText().toString();   //Valor obtido do campo usuário
-        String senha = campo_senha.getText().toString();       //Valor obtido do campo senha
+        String usuario = campo_usuario.getText().toString();  //Valor obtido do campo usuário
+        String senha = campo_senha.getText().toString();      //Valor obtido do campo senha
 
 
         btn_entrar.setOnClickListener(new View.OnClickListener() {
