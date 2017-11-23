@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.pizzariafei.CadastrarClienteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/campo_Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuário" />
+        <EditText
+            android:id="@+id/campo_pasword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha" />
+        <EditText
+            android:id="@+id/campo_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefone" />
+        <EditText
+            android:id="@+id/campo_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Endereço" />
+        <EditText
+            android:id="@+id/campo_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero" />
+        <EditText
+            android:id="@+id/campo_Complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuário" />
+        <Button
+            android:id="@+id/btn_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:onClick="Cadastrar"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -21,6 +21,13 @@
         android:id="@+id/btn_entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar"/>
+        android:text="Entrar"
+        android:onClick="Loginbt"/>
+    <Button
+        android:id="@+id/btn_Cadastrarr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:onClick="cadastro"/>
 
 </LinearLayout>
