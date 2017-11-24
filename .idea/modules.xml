@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Gustavo Diniz\Documents\GitHub\pizzaria\app\app.iml" filepath="C:\Users\Gustavo Diniz\Documents\GitHub\pizzaria\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pizzaria.iml" filepath="$PROJECT_DIR$/pizzaria.iml" />
       <module fileurl="file://C:\Users\Gustavo Diniz\Documents\GitHub\pizzaria\pizzariaFEI.iml" filepath="C:\Users\Gustavo Diniz\Documents\GitHub\pizzaria\pizzariaFEI.iml" />
     </modules>
